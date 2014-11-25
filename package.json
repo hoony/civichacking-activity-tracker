@@ -1,0 +1,24 @@
+{
+  "name": "civichacking-activity-tracker",
+  "version": "0.0.1",
+  "description": "tracker for Github activities of civic hacking communities",
+  "main": "server.js",
+  "dependencies": {
+    "octonode": "0.6.9",
+    "underscore": "1.7.0",
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "tracker",
+    "civichacking",
+    "github"
+  ],
+  "bugs": {
+    "url": "https://github.com/thechunsik/civichacking-activity-tracker/issues",
+    "email": "thechunsik@gmail.com"
+  },
+  "author": "Hoony, Jang <admin@chunsik.org>",
+  "license": "MIT"
+}
