@@ -8,9 +8,24 @@ Tracker for activities of civic hacking community using Github API
   * [NPM](http://npmjs.com/)
 
 ## Build
-```bash
-node server.js
-```
+  1. **install dependencies**
+  ```shell
+  npm install
+  ```
+
+  1. **set GITHUB_SECRET_KEY to environment variable**
+  ```shell
+  export GITHUB_SECRET_KEY="GITHUB_SECRET_KEY"
+  ```
+  if you use [fishshell](http://fishshell.com/)
+  ```shell
+  set -x GITHUB_SECRET_KEY "GITHUB_SECRET_KEY"
+  ```
+
+  1. **build**
+  ```bash
+  node server.js
+  ```
 
 
 ## Source
